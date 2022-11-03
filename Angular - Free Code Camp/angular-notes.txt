@@ -1,0 +1,69 @@
+=========
+ANGULAR
+=========
+1. Angular is a UI framework built by google
+2. A component based framework for building Scalable app
+3. Provided collection of libraries to cover featured like routing , Forms.
+
+=========================
+FRAME WORK vs LIBRARIES
+=========================
+Framework:
+1. Framework generally contains set of libraries.
+2. You can extend the framework.
+3. Some examples are Angular , .net , Ionic , ExpressJS
+
+Libraries:
+1. Libraries generally perform specific operation.
+2. You can combine multiple libs to build apps
+3. Some examples are React , MomentJS , Lodash
+
+======================
+FEATURES OF ANGULAR
+======================
+1. Template
+2. Data Binding
+3. Forms
+4. Routing
+5. Observables
+6. PWA
+
+===========
+TYPESCRIPT
+===========
+1. A Strongly typed programming language
+2. Created and Maintained by Microsoft
+3. Superset of JavaScript
+4. It compiles to JavaScript
+5. Keeps your code evergreen
+6. Support by all major libraries and frameworks
+
+Type Safety :
+	1. Keeps your application free from Type Errors.
+	2. Languages like C# , java are example of Type Safe Languages
+	3. Keeps your JS code free from undefined and null values.
+	4. In Typescript Types are stripped when your code is converted to JS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

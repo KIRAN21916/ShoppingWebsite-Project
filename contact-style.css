@@ -1,0 +1,93 @@
+#contact-hero{
+    background-image: url("/assets/Contact/contact-us.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#contact-hero h1{
+    padding-top: 20px;
+    font-size: 65px;
+    color: navy;
+}
+#contact-hero p{
+    font-size: 20px;
+    color: navy;
+}
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span{
+    font-size: 20px;
+
+}
+
+#contact-details .details h2,
+#contact-details .details h3{
+   font-size: 25px; 
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+}
+#contact-details .details li i{
+    font-size: 20px;
+    padding-left: 30px;
+}
+#contact-details .map{
+    height: 500px;
+}
+
+#form-details form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form span{
+    font-size: 20px;
+}
+#form-details form h2{
+    font-size: 25px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#form-details form input,
+#form-details form textarea
+{
+    width: 100%;
+    pad: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form button{
+    font-size: 19px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+#form-details form button:hover{
+    color: white;
+    background-color: red;
+}
+#form-details{
+    border: 1.5px solid;
+    width: 50%;
+    align-content: center;
+}

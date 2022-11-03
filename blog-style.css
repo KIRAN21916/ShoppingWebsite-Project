@@ -1,0 +1,59 @@
+#blog-hero{
+    background-image: url("/assets/Blog/background\ main.png");
+    height: 33vh;
+    width: 93%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#blog-hero h1,
+#blog-hero p{
+    text-align: center;
+    color: white;
+}
+#blog-hero h1{
+    font-size: 80px;
+}
+#blog-hero p{
+    font-size: larger;
+    background-color: black;
+}
+
+#blog {
+    padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+
+}
+#blog .blog-box img{
+    width: max-content;
+    margin-right: 40px;
+}
+#blog img{
+    height: 300px;
+    object-fit: cover;
+
+}
+#blog a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 800;
+}
+#blog a:hover{
+    color: aqua;
+}
+
+#blog{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

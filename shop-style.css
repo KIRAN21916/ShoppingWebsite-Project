@@ -1,0 +1,83 @@
+#shop-hero{
+    background-image: url("/assets/Shop/banner.jpg");
+    height: 40vh;
+    width: 89%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#shop-hero h1,
+#shop-hero p{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+#shop-hero h1{
+    font-size: 80px;
+}
+
+#pagination{
+    text-align: center;
+    text-decoration: none;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pro-details .single-pro-image{
+    width: 45%;
+    margin-right: 50px;
+}
+
+.small-image-group{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.smallImg{
+    height: 65%;
+    min-width: 150px;
+}
+
+.small-img-col{
+    cursor: pointer;
+}
+
+#pro-details{
+    display: flex;
+    margin-top: 20px;
+}
+
+#pro-details .single-page-details{
+    padding-top: 30px;
+}
+#pro-details .single-page-details h5,
+#pro-details .single-page-details h3,
+#pro-details .single-page-details h2,
+#pro-details .single-page-details h4,
+#pro-details .single-page-details span{
+    font-size: 25px;
+}
+#pro-details .single-page-details select{
+    font-size: larger;
+}
+#pro-details .single-page-details input{
+    width: 20px;
+}
+#pro-details .single-page-details button{
+    font-size: x-large;
+    background-color: green;
+    color: aliceblue;
+}

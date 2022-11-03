@@ -1,0 +1,41 @@
+#about-hero{
+    background-image: url("/assets/About/background.jpg");
+    height: 35vh;
+    width: 93%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-hero h1{
+    font-size: 80px;
+    background-color: black;
+    border-radius: 30px;
+    border: black;
+    color: white;
+}
+
+#about-hero p{
+    font-size: 30px;
+    color: white;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+
+}
+#about-head {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#about-head h2{
+    font-size: 55px;
+}
+#about-head p{
+    font-size: larger;
+}
